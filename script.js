@@ -16,10 +16,13 @@ function Bitcoin() {
     document.getElementById("valorConvertido").innerText = "Valor em Bitcoin: ₿" + valorConvertido.toFixed(8);
 } */
 
-function Dolar() {
+function convertToDolar() {
     let valor = document.getElementById("valor").value;
     let valorConvertido = valor * 5.25; // peguei o valor obtido do usuário e multipliquei pela cotação do dolar atural
     document.getElementById("valorConvertido").innerText = "Valor em Dólar: $" + valorConvertido.toFixed(2); // exibindo o valor convertido em dolar arredondado para 2 casas decimais
+}
 
-
+function limparCampos() {
+    document.getElementById("valor").value = "";
+    document.getElementById("valorConvertido").innerText = "Valor Convertido:";
 }
