@@ -1,0 +1,54 @@
+body {
+    font-family: "Roboto Mono", 
+    monospace;
+    background-image: url("images/background-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(249, 239, 239, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(249, 239, 239, 0.9);
+    
+}
+
+.page-title {
+    color: #000000;
+    margin: 0, 0 5px;
+
+}
+
+.page-subtitle {
+    color: #000000;
+    margin-top: 5px;
+    
+}
+input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 1px solid #000000;
+}
+
+h2 {
+    color: #000000;
+    font-size: 20px;
+}
+
