@@ -52,3 +52,96 @@ h2 {
     font-size: 20px;
 }
 
+/* Media queries para telas menores (celulares) */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .page-title {
+        font-size: 24px;
+    }
+
+    .page-subtitle {
+        font-size: 18px;
+    }
+
+    input {
+        margin: 8px;
+        padding: 4px;
+        border-radius: 8px;
+    }
+
+    button {
+        margin-top: 8px;
+        padding: 4px;
+        border-radius: 8px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+/* Media queries para tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        padding: 15px;
+    }
+
+    .page-title {
+        font-size: 28px;
+    }
+
+    .page-subtitle {
+        font-size: 22px;
+    }
+
+    input {
+        margin: 10px;
+        padding: 5px;
+        border-radius: 9px;
+    }
+
+    button {
+        margin-top: 10px;
+        padding: 5px;
+        border-radius: 9px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
+
+/* Media queries para computadores */
+@media (min-width: 1025px) {
+    .container {
+        padding: 20px;
+    }
+
+    .page-title {
+        font-size: 32px;
+    }
+
+    .page-subtitle {
+        font-size: 26px;
+    }
+
+    input {
+        margin: 12px;
+        padding: 6px;
+        border-radius: 10px;
+    }
+
+    button {
+        margin-top: 12px;
+        padding: 6px;
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+}
+
