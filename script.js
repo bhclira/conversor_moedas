@@ -22,6 +22,14 @@ function convertToDolar() {
     document.getElementById("valorConvertido").innerText = "Valor em Dólar: $" + valorConvertido.toFixed(2); // exibindo o valor convertido em dolar arredondado para 2 casas decimais
 }
 
+function convertToEuro() {
+    let valor = document.getElementById("valor").value;
+    let valorConvertido = valor *6.20; // peguei o valor obtido do usuário e multipliquei pela cotação do euro atual
+    document.getElementById("valorConvertido").innerText = "Valor em Euro: €" + valorConvertido.toFixed(2); // exibindo o valor convertido em euro arredondado para 2 casas decimais e joga pro html
+
+}
+
+
 function limparCampos() {
     document.getElementById("valor").value = "";
     document.getElementById("valorConvertido").innerText = "Valor Convertido:";
