@@ -29,6 +29,11 @@ function convertToEuro() {
 
 }
 
+function convertToBitcoin() {
+    let valor = document.getElementById("valor").value;
+    let valorConvertido = valor * 0.000008; // peguei o valor obtido do usuário e multipliquei pela cotação do bitcoin atual
+    document.getElementById("valorConvertido").innerText = "Valor em Bitcoin: ₿" + valorConvertido.toFixed(8); // exibindo o valor convertido em bitcoin arredondado para 8 casas decimais e joga pro html
+}
 
 function limparCampos() {
     document.getElementById("valor").value = "";
