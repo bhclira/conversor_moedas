@@ -55,5 +55,5 @@ O arquivo style.css contém os estilos para a página, incluindo a configuraçã
 
 ```bash
 # Clone the project
-$ git clone https://github.com/bhclira/alurafone
+$ git clone https://github.com/bhclira/conversor_moedas
 ```
